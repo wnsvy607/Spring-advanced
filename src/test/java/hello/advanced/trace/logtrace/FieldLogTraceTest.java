@@ -17,7 +17,6 @@ class FieldLogTraceTest {
 		TraceStatus status2 = trace.begin("hello2");
 		trace.end(status2);
 		trace.end(status1);
-
 	}
 
 	@Test
