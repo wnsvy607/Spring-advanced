@@ -65,7 +65,6 @@ public class ThreadLocalLogTrace implements LogTrace {
 		} else {
 			traceIdHolder.set(traceId.createPreviousId());
 		}
-
 	}
 
 	private static String addSpace(String prefix, int level) {
